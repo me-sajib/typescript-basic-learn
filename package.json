@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app.ts",
+    "dev": "nodemon --config nodemon.config.json src/app.ts",
     "build": "tsc"
   },
   "keywords": [],
