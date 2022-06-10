@@ -16,3 +16,4 @@ const data: Person = {
 const value = addData(data);
 value.name = "sajib";
 console.log(value);
+kjflasdfafasdfsadfasdfsaf
