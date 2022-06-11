@@ -28,3 +28,6 @@ let names = "jhon";
 // array multiple data type check
 const notes: (string | number | boolean)[] = [3, "read book"];
 notes.push(true);
+
+// type annotation
+// let datas : {name: string, age: number} = JSON.parse('"name":"jack", "age": 32');
