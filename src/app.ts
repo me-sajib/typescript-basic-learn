@@ -1,20 +1,22 @@
-// array check
+// boolean check
 
-function addTask(data: Person, task: string): void {
-  data.info.push(task);
-  console.log(data);
+function isMarried(status: boolean): void {
+  status = !status;
+  console.log(status);
 }
 
 interface Person {
   name: string;
   age: number;
   info: string[];
+  married: boolean;
 }
 
 const data: Person = {
   name: "Max",
   age: 11,
   info: ["a"],
+  married: false,
 };
 
-addTask(data, "text");
+isMarried(data.married);
