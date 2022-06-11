@@ -20,3 +20,7 @@ const data: Person = {
 };
 
 isMarried(data.married);
+
+// if any variable already assign value like string or number then we don't have use type checking
+let names = "jhon";
+// names = 32;this are already assign value that's why not adding to number
