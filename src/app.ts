@@ -31,3 +31,10 @@ notes.push(true);
 
 // type annotation
 // let datas : {name: string, age: number} = JSON.parse('"name":"jack", "age": 32');
+
+function something(data: string): any {
+  return {
+    extra: data,
+  };
+}
+let result: { extra: string } = something("i am a developer");
