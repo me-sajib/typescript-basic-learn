@@ -1,18 +1,20 @@
-// type check
-function addData(obj: Person): Person {
-  obj.age += 2;
-  return obj;
+// array check
+
+function addTask(data: Person, task: string): void {
+  data.info.push(task);
+  console.log(data);
 }
 
 interface Person {
   name: string;
   age: number;
+  info: string[];
 }
 
 const data: Person = {
   name: "Max",
   age: 11,
+  info: ["a"],
 };
-const value = addData(data);
-value.name = "sajib";
-console.log(value);
+
+addTask(data, "text");
